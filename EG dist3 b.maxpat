@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2170.0, 135.0, 1479.0, 909.0 ],
+		"rect" : [ 335.0, 164.0, 1479.0, 909.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,97 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 538.0, 129.0, 92.5, 26.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, "krush", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "krush.vstinfo",
+							"plugindisplayname" : "Krush",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "1121.CMlaKA....fQPMDZ....AP2ZKIG.AHPA....1HTZzAxPxU2bnA...........................PPIVMjLgvAA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOKIWcygFHvwVcmklaEQVZz8lbWkFYzgVOhbSMvHBHvwVcmklaEQVZz8lbHUVZmgFc8HxLwXiHfj1bMkFYoUjagIFakQVOh.iHfj1bMkFYoAkbuclbg01PnElamUVQtElXrUFY8HBLh.xXi0TZjk1PnEla8HBLh3COI4zTTEjSCUDTRUjQS8hO7XjTOoUQNAUPRETSSABYxkWOh.iHfbWYz0iHvHBHhkGbgM2bDIWdSk1YtEFa8HBLh.hX4AWXyM2UkQ2ToclagwVOh.iHfPlb4cUYzwTZtsVOh.iHfPlboYWY8HBLh.BYxklck0zajQTYvQGZ8HBLh.xXxU2bn0iHvHBHiIWcygVSuQFQkAGcn0iHvHBHj81ctMWXsAWOh.iHfP1a241bg0FbM8FYDUFbzgVOh.iHfHVdvE1byYTZrQWYx0iHvHBHlkFazUlbTkGbk0iHvHBHr81cvE1byYjbkEWOh.iHfv1a2AWXyMmTkMWOh.iHffVZvE1byYjbkEWOh.iHffVZvE1byIUYy0iHvHBHlkFazUlbFIWYw0zajQTYvQGZ8HBLh.hYowFckImTkMWSuQFQkAGcn0iHvHBHrY1aSkmai8jbFIWYk0iHvHBHrY1aFIWYkIUXzUVOh.iHfvlYuMUdtMVYjAUYxk1aj0iHvHBHrY1aWElckY1ax0VOh.iHu3COPEjTA0zTfPlb40iHsPCNt.iHfbWYz0iHsDCLtbSN4jSN4PCM0XyM1fiHfHVdvE1byQjb4MUZm4VXr0iHv3BLh.hX4AWXyM2UkQ2ToclagwVOh.iKvHBHjIWdWUFcLklaq0iHv3BLh.BYxklck0iHyfiKv.CLv.CL0XiMxPCMwLiHfPlboYWYM8FYDUFbzgVOh.iKvHBHiIWcygVOhLCMtPCLv.CLvTSLxTSN4jSMh.xXxU2bn0zajQTYvQGZ8HBLt.iHfP1a241bg0Fb8HBLt.iHfP1a241bg0FbM8FYDUFbzgVOh.iKvHBHhkGbgM2bFkFazUlb8HBLt.iHfXVZrQWYxQUdvUVOh.iKvHBHr81cvE1byYjbkEWOhfCLv.iKvHBHr81cvE1byIUYy0iHv3BLh.BZoAWXyMmQxUVb8HhLv3BLh.BZoAWXyMmTkMWOh.iKvHBHlkFazUlbFIWYw0zajQTYvQGZ8HBLt.iHfXVZrQWYxIUYy0zajQTYvQGZ8HBLt.iHfvlYuMUdtM1SxYjbkUVOh.iKvHBHrY1aFIWYkIUXzUVOh.iKvHBHrY1aSkmaiUFYPUlbo8FY8HRL43BLh.Bal81UgYWYl8lbs0iHv3BLh7hO7zTRDkTSAAETI4zQu3COurjb0MGZ9.."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Krush",
+									"origin" : "krush.vstinfo",
+									"type" : "VST",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "krush.vstinfo",
+										"plugindisplayname" : "Krush",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "1121.CMlaKA....fQPMDZ....AP2ZKIG.AHPA....1HTZzAxPxU2bnA...........................PPIVMjLgvAA...O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOKIWcygFHvwVcmklaEQVZz8lbWkFYzgVOhbSMvHBHvwVcmklaEQVZz8lbHUVZmgFc8HxLwXiHfj1bMkFYoUjagIFakQVOh.iHfj1bMkFYoAkbuclbg01PnElamUVQtElXrUFY8HBLh.xXi0TZjk1PnEla8HBLh3COI4zTTEjSCUDTRUjQS8hO7XjTOoUQNAUPRETSSABYxkWOh.iHfbWYz0iHvHBHhkGbgM2bDIWdSk1YtEFa8HBLh.hX4AWXyM2UkQ2ToclagwVOh.iHfPlb4cUYzwTZtsVOh.iHfPlboYWY8HBLh.BYxklck0zajQTYvQGZ8HBLh.xXxU2bn0iHvHBHiIWcygVSuQFQkAGcn0iHvHBHj81ctMWXsAWOh.iHfP1a241bg0FbM8FYDUFbzgVOh.iHfHVdvE1byYTZrQWYx0iHvHBHlkFazUlbTkGbk0iHvHBHr81cvE1byYjbkEWOh.iHfv1a2AWXyMmTkMWOh.iHffVZvE1byYjbkEWOh.iHffVZvE1byIUYy0iHvHBHlkFazUlbFIWYw0zajQTYvQGZ8HBLh.hYowFckImTkMWSuQFQkAGcn0iHvHBHrY1aSkmai8jbFIWYk0iHvHBHrY1aFIWYkIUXzUVOh.iHfvlYuMUdtMVYjAUYxk1aj0iHvHBHrY1aWElckY1ax0VOh.iHu3COPEjTA0zTfPlb40iHsPCNt.iHfbWYz0iHsDCLtbSN4jSN4PCM0XyM1fiHfHVdvE1byQjb4MUZm4VXr0iHv3BLh.hX4AWXyM2UkQ2ToclagwVOh.iKvHBHjIWdWUFcLklaq0iHv3BLh.BYxklck0iHyfiKv.CLv.CL0XiMxPCMwLiHfPlboYWYM8FYDUFbzgVOh.iKvHBHiIWcygVOhLCMtPCLv.CLvTSLxTSN4jSMh.xXxU2bn0zajQTYvQGZ8HBLt.iHfP1a241bg0Fb8HBLt.iHfP1a241bg0FbM8FYDUFbzgVOh.iKvHBHhkGbgM2bFkFazUlb8HBLt.iHfXVZrQWYxQUdvUVOh.iKvHBHr81cvE1byYjbkEWOhfCLv.iKvHBHr81cvE1byIUYy0iHv3BLh.BZoAWXyMmQxUVb8HhLv3BLh.BZoAWXyMmTkMWOh.iKvHBHlkFazUlbFIWYw0zajQTYvQGZ8HBLt.iHfXVZrQWYxIUYy0zajQTYvQGZ8HBLt.iHfvlYuMUdtM1SxYjbkUVOh.iKvHBHrY1aFIWYkIUXzUVOh.iKvHBHrY1aSkmaiUFYPUlbo8FY8HRL43BLh.Bal81UgYWYl8lbs0iHv3BLh7hO7zTRDkTSAAETI4zQu3COurjb0MGZ9.."
+									}
+,
+									"fileref" : 									{
+										"name" : "Krush",
+										"filename" : "Krush.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "bc4ddad73d6d85d4f49eac61621cfb76"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "vst~ krush",
+					"varname" : "vst~",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "message",
@@ -108,7 +199,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -3105,7 +3195,28 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"parameters" : 		{
+			"obj-1" : [ "vst~", "vst~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Krush.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
